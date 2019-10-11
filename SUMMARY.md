@@ -1,10 +1,14 @@
-- [My Tech Stack](Tech_Stack.md)
-	- [PHP](PHP.md)
-	- [MySQL](MySQL.md)
-	- [JavaScript](JavaScript.md)
-	- [Nginx](Nginx.md)
-	- [Bash](Shell.md)
+- [Programming](tech_stack/Tech_Stack.md)
+	- [PHP](tech_stack/PHP.md)
+	- [MySQL](tech_stack/MySQL.md)
+	- [JavaScript](tech_stack/JavaScript.md)
+	- [Nginx](tech_stack/Nginx.md)
+	- [Bash](tech_stack/Shell.md)
 
-
-
-
+- [Develop Environment](dev/dev.md)
+	- [Zsh](dev/zsh.md)
+	- [Alfred](dev/alfred.md)
+	- [PhpStorm](dev/phpstorm.md)
+	- [Sublime Text](dev/sublime-text.md)
+	- [Safari](dev/safari.md)
+	- [Firefox](dev/firefox.md)
