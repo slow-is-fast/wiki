@@ -1,5 +1,6 @@
 - [Programming](tech_stack/Tech_Stack.md)
 	- [PHP](tech_stack/PHP.md)
+	- [Python](tech_stack/python.md)
 	- [MySQL](tech_stack/MySQL.md)
 	- [JavaScript](tech_stack/JavaScript.md)
 	- [Nginx](tech_stack/Nginx.md)
