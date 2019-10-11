@@ -6,6 +6,7 @@
 	- [Bash](tech_stack/Shell.md)
 
 - [Develop Environment](dev/dev.md)
+	- [Mac](dev/mac.md)
 	- [Zsh](dev/zsh.md)
 	- [Alfred](dev/alfred.md)
 	- [PhpStorm](dev/phpstorm.md)
