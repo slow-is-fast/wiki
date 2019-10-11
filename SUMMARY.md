@@ -14,3 +14,6 @@
 	- [Sublime Text](dev/sublime-text.md)
 	- [Safari](dev/safari.md)
 	- [Firefox](dev/firefox.md)
+- [Command Line Tools](cli/cli.md)
+	- [Github Hub](cli/hub.md)
+	- [Utility](cli/util.md)
