@@ -1,11 +1,10 @@
-- [PHP](PHP.md)
-
-- [Bash](Shell.md)
-
-- [Nginx](Nginx.md)
-
 - [My Tech Stack](Tech_Stack.md)
+	- [PHP](PHP.md)
+	- [MySQL](MySQL.md)
+	- [JavaScript](JavaScript.md)
+	- [Nginx](Nginx.md)
+	- [Bash](Shell.md)
 
-- [MySQL](MySQL.md)
 
-- [JavaScript](JavaScript.md)
+
+
