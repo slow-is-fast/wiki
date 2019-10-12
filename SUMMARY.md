@@ -14,6 +14,10 @@
 	- [Sublime Text](dev/sublime-text.md)
 	- [Safari](dev/safari.md)
 	- [Firefox](dev/firefox.md)
+	- [dotfiles](dev/dotfiles.md)
+	- [Softwares](dev/softwares.md)
+
+
 - [Command Line Tools](cli/cli.md)
 	- [Find](cli/find.md)
 	- [Github Hub](cli/hub.md)

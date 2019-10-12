@@ -1,8 +1,5 @@
 # Develop Environment
 
-- [dotfiles](dev/dotfiles.md)
-
-- [Softwares](dev/softwares.md)
 
 
 
