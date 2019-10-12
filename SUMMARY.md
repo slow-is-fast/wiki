@@ -18,3 +18,5 @@
 	- [Find](cli/find.md)
 	- [Github Hub](cli/hub.md)
 	- [Utility](cli/util.md)
+
+- [Ideas](ideas/ideas.md)
