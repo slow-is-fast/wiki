@@ -15,5 +15,6 @@
 	- [Safari](dev/safari.md)
 	- [Firefox](dev/firefox.md)
 - [Command Line Tools](cli/cli.md)
+	- [Find](cli/find.md)
 	- [Github Hub](cli/hub.md)
 	- [Utility](cli/util.md)
