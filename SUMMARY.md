@@ -24,3 +24,4 @@
 	- [Utility](cli/util.md)
 
 - [Ideas](ideas/ideas.md)
+	- [Tag Files](ideas/tag_file.md)
