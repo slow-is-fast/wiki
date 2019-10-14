@@ -16,7 +16,7 @@
 	- [Firefox](dev/firefox.md)
 	- [dotfiles](dev/dotfiles.md)
 	- [Softwares](dev/softwares.md)
-
+	- [Font](dev/font.md)
 
 - [Command Line Tools](cli/cli.md)
 	- [Find](cli/find.md)
