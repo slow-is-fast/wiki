@@ -17,6 +17,7 @@
 	- [dotfiles](dev/dotfiles.md)
 	- [Softwares](dev/softwares.md)
 	- [Font](dev/font.md)
+	- [Whistle](dev/whistle.md)
 
 - [Command Line Tools](cli/cli.md)
 	- [Find](cli/find.md)
