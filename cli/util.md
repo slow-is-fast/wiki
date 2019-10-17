@@ -3,12 +3,19 @@
 ## Alias
 
 ### ~~打开每日issue~~
+需要安装github cli 客户端hub
+
+
 ```shell
 alias td="cd {local_repo};hub browse -- issues/`hub issue -L 1  | cut -d ' '  -f 5 | sed 's/#//'`; cd -"
 alias daily="hub issue  create -l 'AUTO' -l `date +%Y%m` -m `date +%Y-%m-%d` -a slow-is-fast -M `date +%Y-%m`"
 ```
 
 ### 打开每日issue
+
+需要安装github cli 客户端hub
+
+```shell
 function td () {
     ( cd {YOUR LOCAL REPO} && hub browse -- issues/`hub issue -L 1  | cut -d ' '  -f 5 | sed 's/#//'`  )
 }
@@ -16,6 +23,7 @@ function td () {
 function da () {
     ( cd {YOUR LOCAL REPO} && hub issue create -l 'AUTO' -l `date +%Y%m` -m `date +%Y-%m-%d` -a slow-is-fast -M `date +%Y-%m` )
 }
+```
 
 ### 按文件后缀统计文件数量
 
@@ -27,7 +35,6 @@ alias ce='find . -type f | rev | cut -d. -f1 | rev  | sort | uniq -c'
 
 
 ## Scripts
-
 
 ### 批量打开URL
 ``` shell
@@ -45,7 +52,6 @@ https://example.com/url_2
 https://example.com/url_3
 https://example.com/url_4
 
-
 ```
 
 
@@ -53,7 +59,36 @@ https://example.com/url_4
 还没找到原因
 
 
+### 批量转换文件编码
 
+```shell
+iconv -l
+```
+显示iconv支持的编码格式
+
+
+```shell
+find . -type f -exec iconv -f GBK -t UTF8 {}  > {}_utf.html \;
+```
+一开始想到的是这种方法,
+可是全部的输出都重定向到了一个名字真的叫 {}_utf.html 的文件。
+失败
+遂尝试写for循环来处理
+
+
+#### 所有要转换的文件都在当前目录里
+```shell
+for f in *.html; do iconv -c -f GBK -t UTF8 $f > $f.utf.html; done
+```
+
+
+#### 所有要转换的文件都在一个独立的子目录里
+
+```shell
+for f in */*.html; do 
+iconv -c -f GBK -t UTF8 $f > $f.utf.html;
+done
+```
 
 
 
