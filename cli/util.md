@@ -24,3 +24,53 @@ count files by its extension name.
 ```shell
 alias ce='find . -type f | rev | cut -d. -f1 | rev  | sort | uniq -c'
 ```
+
+
+## Scripts
+
+
+### 批量打开URL
+``` shell
+cat links.txt | while read line
+do
+    echo $line;
+    open $line -a "/Applications/Safari.app"
+    sleep 5;
+done
+```
+
+```text
+https://example.com/url_1
+https://example.com/url_2
+https://example.com/url_3
+https://example.com/url_4
+
+
+```
+
+
+有个小问题，links.txt如果没有最后一个空行，不会打开最后一个URL。
+还没找到原因
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
