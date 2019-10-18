@@ -8,8 +8,10 @@
 
 ## Editor
 - Sublime Text 3
+- VS Code
 - Emacs
 - Vim
+
 
 
 ## Reading
