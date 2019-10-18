@@ -42,6 +42,11 @@
 ```
 
 
+- [HammerSpoon](https://github.com/Hammerspoon/hammerspoon)
 
+配置Fork自大神[manateelazycat](https://github.com/manateelazycat/hammerspoon-config)
+
+
+[我的配置](https://github.com/slow-is-fast/hammerspoon_config)
 
 
