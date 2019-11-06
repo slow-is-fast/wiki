@@ -11,6 +11,7 @@
  - ssh客户端没有加载key，参考下面的链接执行即可
     如果key的名字不是默认的id_rsa等，需要执行文件名字
 
+ - 在~/.ssh/config
 
 - [Github Documents](https://help.github.com/en/github/authenticating-to-github/error-permission-denied-publickey#verify-the-public-key-is-attached-to-your-account)
 
