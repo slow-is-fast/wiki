@@ -1,5 +1,10 @@
 # MySQL
 
+## 从命令行里执行sql
+```shell
+    mysql --user="$user" --password="$password" --database="$database" --execute="delete from table where id < $min_id ";
+```
+
 
 ## 分批备份数据
 ```sql
