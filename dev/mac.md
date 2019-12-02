@@ -6,3 +6,5 @@
 ```shell
 brew install unar
 ```
+
+- [参考此链接](https://www.jianshu.com/p/dd54f41b87d3)
