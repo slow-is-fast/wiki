@@ -93,7 +93,15 @@ done
 
 
 
+### 统计git log中新增/删除代码行数 
 
+
+```shell
+git log --author="$(git config --get user.name)" --no-merges --since=2018-01-01 --until=2021-01-01  --pretty=tformat: --numstat | awk '{ add += $1 ; subs += $2 ; loc += $1 - $2 } END { printf "added lines: %s removed lines : %s total lines: %s\n",add,subs,loc }'
+```
+
+
+> added lines: 20070 removed lines : 6303 total lines: 13767
 
 
 
